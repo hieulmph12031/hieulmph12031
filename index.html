@@ -4,6 +4,48 @@
         <title>html</title>
     </head>  
     <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+            }
+
+        li {
+            float: left;
+            }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            }
+
+        li a:hover {
+            background-color: #111111;
+            }
+        table#t01{
+            width: 100%;    
+            background-color: #f1f1c1;
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+        table,th,td{
+            border: 1px solid lawngreen;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 15px;
+        }
+        th{
+            text-align: left;
+        }
+        table{
+            border-spacing: 15px;
+        }
         a:link, a:visited {
         background-color: #f44336;
         color: white;
@@ -114,6 +156,108 @@
         <a href="http://www.phimmoi.net/tags/7+vi%C3%AAn+ng%E1%BB%8Dc+r%E1%BB%93ng/" target="self">
         <img src="assets/sda.jpg" alt="7 vien ngoc rong" style="width:200px;height:200px;border:0;">
         </a>
+        <hr>
+        <h1>HTML table</h1>
+        <h2>bang co ban</h2>
+        <table style="width: 100%">
+            <tr>
+                <th>ho</th>
+                <th>ten</th>
+                <th>tuoi</th>
+
+            </tr>
+            <tr>
+                <td>luong</td>
+                <td>hieu</td>
+                <td>18</td>
+
+            </tr>
+            <tr>
+                <td>nong</td>
+                <td>than</td>
+                <td>28</td>
+
+            </tr>
+            </table>
+        <table style="widows: 100px;">
+            <tr>
+                <th>ten:</th>
+                <td>goku </td>
+                <td>tuoi</td>
+              </tr>
+              <tr>
+                <th rowspan="2">chi so suc manh:</th>
+                <td>500</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>100000000000</td>
+                <td>20</td>
+              </tr>
+
+            </table>
+            <table id="t01">
+            <tr>
+                <th>ho</th>
+                <th>ten</th>
+                <th>tuoi</th>
+
+            </tr>
+            <tr>
+                <td>luong</td>
+                <td>hieu</td>
+                <td>18</td>
+
+            </tr>
+            <tr>
+                <td>nong</td>
+                <td>than</td>
+                <td>28</td>
+
+            </tr>
+        </table>
+        <hr>
+        <h1>HTML List</h1>
+        <h2>danh sach do uong</h2>
+
+        <ul style="list-style-type:disc;">
+        <li>Ca phe</li>
+        <li>Tra</li>
+        <li>sua </li>
+        </ul> 
+        <h2>danh sach do an</h2> 
+        <ul style="list-style-type:square;">
+            <li>bun </li>
+            <li>mi tom</li>
+            <li>rau </li>
+        </ul> 
+        <h3>do goi them</h3> 
+        <ol>
+            <li>trung</li>
+            <li>xuc xich</li>
+            <li>rebeccapurple</li>
+        </ol>
+        <ol type="I">
+            <li>trung</li>
+            <li>xuc xich</li>
+            <li>rau</li>
+        </ol>
+        <h2>danh sach mo ta</h2>
+
+        <dl>
+        <dt>ca phe den</dt>
+        <dd>- rat dang</dd>
+        <dt>ca phe sua</dt>
+        <dd>- van dang nhung it hon</dd>
+        </dl>
+        
+        <h2>menu</h2>
+
+        <ul>
+        <li><a href="https://shopaccbi.com/" target="self">Home</a></li>
+        <li><a href="https://shopaccbi.com/danh-muc/game-lien-minh" target="self">nick lien minh</a></li>
+        <li><a href="https://shopaccbi.com/danh-muc/game-lien-quan" target="self">nick lien quan</a></li>
+        <li><a href="https://shopaccbi.com/danh-muc/game-fo4" target="self">nick fifa</a></li>
         
 
 
