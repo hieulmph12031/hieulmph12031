@@ -1,7 +1,8 @@
 <!DOCTYh1E html>
 <html lang="en-US">
     <head>
-        <title>html</title>
+        <title>trang web dau tien</title>
+        
     </head>  
     <style>
         #yasuo{
@@ -304,11 +305,99 @@
         <p>thay tu mu.</p>
         <h1 id="Yasuo" > Hieu No Best Yasuo 1.000.000 tt </h1>
         <iframe src="https://vn.op.gg/champion/yasuo/statistics/mid" height="1280" width="720">c</iframe>
-        <p><a href="https://vn.op.gg/champion/yasuo/statistics/mid" target="iframe_a">click de danh ys hay vl</a></p>
-        
+        <p><a href="https://vn.op.gg/champion/yasuo/statistics/mid" target="iframe_a">click de danh ys hay vl ,</a></p>
+        <br>
+        <h1>JS</h1>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">an vao de xem ngay thang nam </button>
+        <p id="demo"></p>
+        <script>document.getElementById('demo').innerHTML="xin chao";</script>
+        <p id="demo">abc</p>
+        <script>
+            function hieu(){
+                document.getElementById("demo").style.fontSize="25px";
+                document.getElementById("demo").style.color="red";
+                document.getElementById("demo").style.backgroundColor="green";
+            }            
+        </script>
+        <button type="button" onclick="hieu()">an vao</button>
+        <script>
+            function do(sw){
+                var pic;
+                if (sw==0){
+                    pic="assets/thug-life-12166.png"
+                }
+                else{
+                    pic="assets/mu__ho__ng_2.jpg"
+                }
+                document.getElementById('anh').scr=pic;
 
-
-
+                }
+            }
+        </script> 
+        <img id="anh" src="assets/mu___ho____ng_2.jpg" width="100px" height="100px">
+        <p>
+            <button type="button" onclick="do(1)" >chuyen sang kinh</button>
+            <button type="button" onclick="do(0)" >chuyen sang mu</button>
+        </p>
+            <br>
+            <script>
+                function light(sw) {
+                  var pic;
+                  if (sw == 0) {
+                    pic = "pic_bulboff.gif"
+                  } else {
+                    pic = "pic_bulbon.gif"
+                  }
+                  document.getElementById('myImage').src = pic;
+                }
+                </script>
+                
+                <img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+                
+                <p>
+                <button type="button" onclick="light(1)">Light On</button>
+                <button type="button" onclick="light(0)">Light Off</button>
+                </p>
+                <noscript>xin loi trinh duyet cua ban k ho tro javascript</noscript>
+                <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" style="width:300px"> 
+                <img src="https://www.pinterest.com/pin/758223287248965041/?autologin=true" alt="Mountain" style="width:300px">
+                <meta charset="UTF-8">
+                <meta name="description" content="trang web vo van">
+                <meta name="keywords" content="HTML,lucian,leesin,yasuo">
+                <meta name="author" content="hieu luong">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <br>
+                <hr>
+                <img src="assets/mu___ho____ng_2.jpg">
+                <p>gia 150.000vnd</p>
+                <P><a href="http://clownz.vn/clownz-smile-face-cap-pink-p17055089.html">clicks de xem them</a> </P>
+                <code>
+                x = 5;
+                y = 6;
+                z = x + y;
+                </code>
+                <section>
+                    <h1>Yasuo</h1>
+                    <p>la quoc tuong cua viet nam</p>
+                </section>
+                <section>
+                    <h1>Leesin </h1>
+                    <p>la quoc tuong han quoc</p>
+                </section>
+                <article>
+                    <h1>Yasuo</h1>
+                    <p>la quoc tuong cua viet nam</p>
+                </article>
+                <article>
+                    <h1>Leesin </h1>
+                    <p>la quoc tuong han quoc</p>
+                </article>
+                <a href="HTMLStyleGuide.html" target="blank">an vao</a>
+                <h1>html emoji</h1>
+                <p><a href="htmlemoji.html">an vao</a>nhan de vao html emoji</p>
+                <h1>html FORMS</h1>
+                <p><a href="htmlforms.html">an vao</a>nhan de vao html FORMS</p>
 
 
         
